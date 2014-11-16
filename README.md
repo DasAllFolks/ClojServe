@@ -1,36 +1,31 @@
 # clojserve
 
-FIXME: description
+This is intended as a learning project for both Clojure and the fundamentals of web servers; the goal is to write a Clojure program which accepts nearly any type of HTTP request and returns the appropriate HTTP response.
+
+NOT intended for production use. 
 
 ## Installation
 
-Download from http://example.com/FIXME.
+TODO
 
 ## Usage
 
-FIXME: explanation
-
-    $ java -jar clojserve-0.1.0-standalone.jar [args]
+TODO
 
 ## Options
 
-FIXME: listing of options this app accepts.
+TODO
 
 ## Examples
 
-...
+TODO
 
 ### Bugs
 
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+TODO
 
 ## License
 
 Copyright © 2014 FIXME
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Distributed under the Eclipse Public License either version 1.0.
