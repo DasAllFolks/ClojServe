@@ -2,10 +2,6 @@
   (:require [clojure.test :refer :all]
             [clojserve.core :refer :all]))
 
-(deftest fail-test
-  (testing "FIXME, I fail."
-    (is (= 0 1))))
-
-(deftest success-test
-  (testing "Whereas I work."
-    (is (= 1 1))))
+(deftest improperly-formatted-request
+  (testing "Improperly formatted HTTP request"
+    (is (= 500 (-main "complete rubbish" 1)))))
