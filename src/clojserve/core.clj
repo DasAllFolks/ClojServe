@@ -2,6 +2,7 @@
   (:gen-class))
 
 (defn -main
-  "I don't do a whole lot ... yet."
+  "Generates the HTTP response for a given HTTP request"
   [& args]
-  (println "Hello, World!"))
+  ; Return 500 for everything not yet implemented
+  500)
