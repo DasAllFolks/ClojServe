@@ -6,4 +6,5 @@
   [request-line]
   ; XXXX: Combine parameters which are just characters right now.
   ; XXXX: And then what to do with all of these parameters?
+  (nil 
   (filter #(not (or (= % \space) (= % \return) (= % \newline))) request-line))
