@@ -1,12 +1,6 @@
 (ns clojserve.core
   (:gen-class))
 
-(defn tokenize-string
-  "Separates a string into a list of string tokens given a separator character"
-  [separator string]
-  ; XXXX: Write me!
-  nil )
-
 (defn process-request-line
   "Separates out parameters for the HTTP request line"
   [request-line]
