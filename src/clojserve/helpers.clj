@@ -1,6 +1,11 @@
 (ns clojserve.core
   (:gen-class))
 
+(def request-type?
+  "Checks if input lowercase string corresponds to an HTTP request type"
+  (set '("get" "post" "put" "head" "trace" "options" "delete" "connect" "patch")))
+
+
 (defn process-request-line
   "Separates out parameters for the HTTP request line"
   [request-line]
