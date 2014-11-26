@@ -9,7 +9,7 @@
 (defn is-valid-request-type
   "Returns true for valid request types, false otherwise (case-insensitive)"
   [request-type]
-  (not (= (nil (request-type? (string/capitalize request-type))))))
+  (not (= nil (request-type? (string/capitalize request-type)))))
 
 (defn process-request-line
   "Separates out parameters for the HTTP request line"
