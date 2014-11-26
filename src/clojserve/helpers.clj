@@ -1,4 +1,4 @@
-(ns clojserve.core
+(ns clojserve.helpers
   (:gen-class))
 (require '[clojure.string :as string])
 
