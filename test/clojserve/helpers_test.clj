@@ -1,4 +1,11 @@
 (ns clojserve.helpers-test
   (:require [clojure.test :refer :all]
             [clojserve.helpers :refer :all]))
-; Write tests here!
+
+(deftest valid-request-type
+  (testing "Valid request type"
+    (is (= true (is-valid-request-type "get")))))
+
+(deftest invalid-request-type
+  (testing "Invalid request type"
+    (is (= true (is-valid-request-type "bogus")))))
