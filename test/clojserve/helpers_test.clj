@@ -8,4 +8,4 @@
 
 (deftest invalid-request-type
   (testing "Invalid request type"
-    (is (= true (is-valid-request-type "bogus")))))
+    (is (= false (is-valid-request-type "bogus")))))
