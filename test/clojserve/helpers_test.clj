@@ -1,7 +1,4 @@
-(ns clojserve.core-test
+(ns clojserve.helpers-test
   (:require [clojure.test :refer :all]
-            [clojserve.core :refer :all]))
-
-(deftest improperly-formatted-request
-  (testing "Improperly formatted HTTP request"
-    (is (= 500 (-main "complete rubbish" 1)))))
+            [clojserve.helpers :refer :all]))
+; Write tests here!
